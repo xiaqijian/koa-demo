@@ -9,6 +9,8 @@ const staticPath = './static'
 
 let home = new Router()
 
+debugger;
+
 home.get('/', async ctx => {
     let title = 'hello koa2'
     await ctx.render('index', {
